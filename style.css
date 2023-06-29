@@ -1,0 +1,536 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none !important;
+}
+body{
+    background-color: #f5f8f8;
+}
+/* start section one */
+.sec1 {
+    background-image: url(banner2.png);
+height: 102vh;
+background-size: cover;
+background-position: center;
+font-family: 'ABeeZee', sans-serif;}
+.sec1 .navbar{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+}
+.sec1 .navbar .link{
+    margin-left: 50px;
+    margin-top: 40px;}
+.sec1 .navbar .btn{
+    margin-top: 40px;
+    margin-right: 120px;
+}
+.sec1 .navbar a{
+    color: aliceblue;
+    padding: 30px;
+}
+.sec1 .navbar .link a:hover{
+    color: rgb(15, 239, 251);
+}
+.sec1 .navbar .sora img{
+    margin-top: 30px;
+    margin-left: 190px;
+}
+.sec1 .navbar .btn{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.sec1 .navbar .btn .btn2 button{
+    background-color: #07d9fe;
+    font-size: 11px;
+    color: aliceblue;
+    padding: 2px;
+    margin: 5px;
+    border-radius: 50%;
+    width: 18px;
+    border: none !important;
+    margin-top: 20px;
+}
+/* end navbar */
+/* start body */
+.sec1 .div-body{
+    display: flex;
+    justify-content: space-around;
+}
+.sec1 .div-body .kalam{
+    width: 100px;
+    margin-bottom: 20px;
+}
+.sec1 .div-body .kalam{
+    text-align: start;
+    color: white;
+    margin-top: 50px;
+}
+.sec1 .div-body .kalam p{
+    font-size: 40px;
+    margin-top: 40px;
+}
+.sec1 .div-body .bbbbb img{
+    margin-top: 50px;    
+    width: 620px;
+}
+.sec1 .div-body .kalam .btn3{
+    display: flex;
+    margin-top: 28px;
+    margin-left: -30px;
+}
+.sec1 .div-body .kalam .btn3 .btton button{
+margin-right: 5px;
+border-radius: 100px;
+width: 150px;
+height: 50px;
+border: none !important;
+color: rgb(245, 248, 248);
+background-color: #a093cb;
+font-size: 17px;
+}
+.sec1 .div-body .kalam .btn3 .bttn button{
+    margin-right: 5px;
+border-radius: 100px;
+width: 150px;
+height: 50px;
+border: none !important;
+color: rgb(245, 248, 248);
+background-color: #ccc5e3;
+font-size: 17px;
+}
+.sec1 .div-body .kalam .btn3 .bttn button:hover {
+    background-color: #05d4f4;
+    transition: ease-in .3s;
+}
+/* end siction one */
+/* section two */
+.sec2{
+    font-family: 'ABeeZee', sans-serif;
+}
+.sec2 .Domain .body-1 h1{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 40px;
+    color: #083685;
+}
+.sec2 .Domain .body-1 h1 span{
+    color: #05d4f4;
+}
+.sec2 .Domain .body-2{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec2 .Domain .body-2 input{
+    width: 55%;
+    height: 70px;
+    border-radius: 100px;
+    margin-left: 10px;
+    position: absolute;
+    border: none !important;
+    margin-right: 20px;
+    margin-top: 70px;
+    font-size: 14px;
+    padding-left: 20px;
+}
+.sec2 .Domain .body-2 i{
+    position: relative;
+    top: 35px;
+    left: 380px;
+    font-size: 18px;
+}
+.sec2 .Domain .body-3{
+    width: 55%;
+    height: 120px ;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 10px;
+    background-color: white;
+}
+.sec2 .Domain .body-3{
+    display: flex;
+justify-content: space-around;
+align-items: center;
+text-align: start;
+position: relative;
+}
+.sec2 .Domain .body-3 h4{
+    padding-bottom: 6px;
+}
+.sec2 .Domain .body-3 p{
+    padding-bottom: 6px;
+
+}
+.sec2 .Domain .body-3 .div-a{
+    color: #083685;
+}
+.sec2 .Domain .body-3 h4{
+    color: #083685;
+    font-size: 18px;
+}
+.sec2 .Domain .body-4{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.sec2 .Domain .body-4 button{
+margin-bottom: 10px;
+position: absolute;
+width: 180px;
+height: 50px;
+border-radius: 40px;
+border: none !important;
+font-family: 'ABeeZee', sans-serif;
+background-color: #05d4f4;
+color: white;
+font-size: 15px;
+}
+.sec2 .Domain .body-4 button:hover{
+    background-color: #083685;
+    transition: all ease .5s;
+}
+/* end section 3 */
+/* start section 4 */
+.sec4{
+    margin-top: 100px;
+}
+.sec4 .text{
+    text-align: center;
+    font-family: 'ABeeZee', sans-serif;
+    margin-bottom: 100px;
+}
+.sec4 .text h1{
+    margin-bottom: 15px;
+    font-size: 45px;
+    color: #083685;
+}
+.sec4 .text span{
+    color: #07d9fe;
+}
+.sec4 .text p{
+    font-size: 20px;
+    line-height: 30px ;
+}
+.sec4 .text-all{
+display: flex;
+justify-content: space-around;
+align-items: center;
+text-align: center;
+font-family: 'ABeeZee', sans-serif;
+margin-left: 150px;
+margin-right: 150px;
+}
+.sec4 .text-all .img-1{
+    border: 7px solid #05d4f4;
+    padding: 70px;
+    border-radius: 100%;
+    margin-bottom: 30px;
+    margin: 40px;
+    width: auto;
+}
+.sec4 .text-all img {
+    width: auto!important;
+    background-color: white;
+    color: white;
+}
+.sec4 .text-all p{
+    margin: 20px;
+    padding: 20px;
+    font-size: 17px;
+    letter-spacing: .1em;
+line-height: 1.7em;
+}
+.sec4 .text-all h4{
+font-size: 16px;
+}
+.sec4 .text-all button{
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    border: none !important;
+    background-color: #07d9fe;
+    font-size: 15px;
+    color: white;
+}
+.sec4 .text-all .ima-0:hover{
+    transition: .6s ease ;
+    background-color: #083685;
+}
+/* end section 4 */
+/* start section 5 */
+.sec5 .div-a{
+    text-align: center;
+    margin-top: 80px;
+    font-family: 'ABeeZee', sans-serif;
+    }
+    .sec5 .div-a h3{
+    font-size: 45px;
+    color: #083685;
+    }
+    .sec5 .div-a h3 span{
+        color: #24dffc;
+    }
+    .sec5 .div-a p{
+        font-size: 22px;
+        color: #5c5d5e;
+        padding: 20px;
+    } 
+    .sec5 .div-b {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .sec5 .div-b .borderr{
+    border: 3px solid #05d4f4;
+    margin: 25px ;
+    width: 350px;
+    height: 400px;
+    text-align: center;
+    cursor: pointer;
+}
+.sec5 .div-b .borderr:hover{
+    border-color: #083685;
+    transition:.8s all linear;
+}
+.sec5 .div-b .borderr .bttn button:hover{
+    color: #f7f8f9;
+    background-color: #083685 ;
+    transition:.7s ease all!important ;
+}
+.sec5 .div-b .borderr h4{
+    margin-top: 40px;
+    color: #083685;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-family: 'ABeeZee', sans-serif;
+    cursor: pointer;
+}
+.sec5 .div-b .borderr h4:hover{
+color: #05d4f4;
+transition:.7s ease all!important ;
+}
+.sec5 .div-b .borderr p{
+    line-height: 17px;
+    letter-spacing: .1em;
+    padding-bottom: 25px;
+    font-size: 18px;
+}
+.sec5 .div-b .borderr p span{
+    font-size: 40px;
+    font-weight: bold;
+    padding: 10px;
+    align-items: center;
+}
+.sec5 .div-b .borderr .btn-a{
+margin-bottom: 25px;
+width: 120px;
+height: 30px;
+border-radius: 20px;
+border: 1px solid #060606;
+background-color: white;
+color: #333535;
+cursor: pointer;
+}
+.sec5 .div-b .borderr .bttn{
+margin: 30px;
+} 
+.sec5 .div-b .borderr .bttn button{
+    width: 180px;
+    height: 45px;
+    border-radius: 30px;
+    color: white;
+    background-color: #05d4f4;
+    border: none !important;
+    font-size: 16px;
+    cursor: pointer;
+}
+.sec5 .div-b .borderr .btn-a:hover{
+    color: white;
+    background-color: #083685;
+    transition:.7s ease all!important ;
+}
+/* end section 5 */
+/* start section 6 */
+.sec6 {
+    margin: auto;
+    text-align: center;
+    display: flex;
+    margin: 120px;
+    font-family: 'ABeeZee', sans-serif;
+}
+.sec6 .div-e h4{
+    margin: 50px auto;
+    font-size: 40px;
+    color: #083685;
+}
+.sec6 .div-e h4 span{
+    color: #05d4f4;
+}
+.sec6 .div-e img{
+    margin-bottom: 50px;
+}
+.sec6 .div-e .div-f  p{
+    text-align: center;
+    font-family: 'ABeeZee', sans-serif;
+    font-weight: 100;
+    line-height: 1.9em;
+    margin: 30px auto;
+}
+.sec6 .div-e button{
+    margin-top: 20px;
+    width: 180px;
+    height: 55px;
+    background:#05d4f4 ;
+    cursor: pointer;
+    border-radius: 30px;
+    font-size: 16px;
+    color: white;
+    border: none !important;
+}
+.sec6 .div-e button:hover{
+    background-color: #083685;
+    transition: all ease-in-out  1s;
+}
+/* end section 6 */
+/* start section 7 */
+.sec7 .div-s{
+text-align: center;
+}
+.sec7 .div-s h2{
+    font-size: 40px;
+    font-family: 'ABeeZee', sans-serif;
+color: #083685;
+margin-bottom: 50px;
+font-weight: bold;
+line-height: normal
+}
+.sec7 .div-s h2 span{
+    color: #05d4f4;
+}
+.sec7 .div-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sec7 .div-form input{
+    height: 65px;
+    width: 800px;
+    padding-left: 30px;
+    border-radius: 35px;
+    font-size: 18px;
+    outline:.1px solid black ;
+    border:  none !important;
+    margin: 20px;
+    color: #a3acb1;
+}
+.sec7 .ima-22 input{
+    height: 250px;
+}
+.sec7 .bttn-1{
+    text-align: center;
+    margin: 75px  50px 80px 60px;
+
+}
+.sec7 .bttn-1 button{
+    width: 350px;
+    height: 65px;
+    border-radius: 50px;
+    border:  none !important;
+    color: white;
+    background-color: #05d4f4;
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+.sec7 .bttn-1 button:hover{
+    background-color: #083685;
+    transition: ease-in-out .8s;
+}
+/* end section 7 */
+/* start section 8 */
+.sec8{
+    background-color: #083685;
+    max-width: 100%;
+    height: 400px;
+    margin-top: 25px;
+}
+.sec8 .footer{
+    display: flex ;
+    justify-content: space-between;
+    text-align: start;
+    padding :  9% 10%!important;
+    color: white;
+    font-size: 18px;
+}
+.sec8 .footer .footer-1{
+margin-top: -80px;
+}
+.sec8 .footer .footer-1 h5{
+    margin-bottom: 25px;
+    font-size: 18px;
+}
+.sec8 .footer .footer-1 p{
+    margin-bottom: 16px;
+}
+.sec8 .footer .footer-a i{
+    padding-right: 15px;
+}
+.sec8 .footer .footer-b p{
+    cursor: pointer;
+}
+.sec8 .footer .footer-b p:hover{
+color: #05d4f4;
+}
+.sec8  .footer-end{
+    color: rgb(249, 245, 245);
+    text-align: center;
+    margin-top: -70px;
+    font-size: 30px;
+}
+.sec8  .footer-end a{
+    color: rgb(249, 245, 245);
+}
+.sec8  .footer-end a:hover{
+    color: #05d4f4;
+    transition: all .9s;
+}
+/* end section 8 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
